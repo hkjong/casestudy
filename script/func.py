@@ -1,7 +1,6 @@
-import requests,os,re,time,sys
+import requests,os,re,time,json5
 from os import path,makedirs
 from bs4 import BeautifulSoup as bs
-import json5
 
 def correctSingleQuoteJSON(s):
     rstr = ""
